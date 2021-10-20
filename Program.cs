@@ -61,7 +61,7 @@ namespace exerciciosGama
                 case 3:
                     Console.WriteLine("Insira o raio da esfera a ser calculada:");
                     raio = Convert.ToDouble(Console.ReadLine());
-                    volume = 4/(3*raio*raio*3.1415);
+                    volume = raio*raio*raio*3.1415*4/3;
                     Console.WriteLine("O volume da esfera é de {0} unidade de medida", volume);
                     break;
                 case 4:
